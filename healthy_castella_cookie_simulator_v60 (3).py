@@ -139,4 +139,4 @@ if st.button("🚀 執行模擬與優化"):
     total_opt = sum(optimized.values())
     optimized = {k: round(v/total_opt*100,1) for k,v in optimized.items()}
 
-    st.subheader(" 優化後
+ 
